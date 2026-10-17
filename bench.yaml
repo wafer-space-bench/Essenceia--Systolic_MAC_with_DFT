@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/Essenceia/Systolic_MAC_with_DFT
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_essen
+  project: 2x2 MAC Systolic array with DFT
+  size: 1x2
+  kind: digital (Verilog)
+  commit: 40af618934f169190da08245752e976b20aeda6a
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_essen
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_essen
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:35:54Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_essen
+- upstream/main
+- upstream/master
